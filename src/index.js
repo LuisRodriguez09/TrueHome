@@ -1,11 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import { TrueHome } from './TrueHome';
+import { TrueHome } from "./TrueHome";
 //import { AppRouter } from './routers/AppRouter';
-import './styles/styles.scss';
+import "./styles/styles.scss";
 
-ReactDOM.render(
-  <TrueHome />,
-  document.getElementById('root')
-);
+ReactDOM.render(<TrueHome />, document.getElementById("root"));
